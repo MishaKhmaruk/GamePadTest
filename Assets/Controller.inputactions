@@ -1,0 +1,107 @@
+{
+    "name": "Controller",
+    "maps": [
+        {
+            "name": "DPad",
+            "id": "2700388e-44e4-446b-8dbd-a5f26b443832",
+            "actions": [
+                {
+                    "name": "DpadMove",
+                    "type": "Button",
+                    "id": "471f1fc2-9bda-488e-b1ff-458d80bfefc1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "79a9ec33-5a70-4815-95a5-4f75d4b33f08",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Horizontal",
+                    "id": "9eb64536-a3ab-49f0-959a-dab1a522ca92",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DpadMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3d910022-d9cd-41d7-afff-dd040abb053e",
+                    "path": "<HID::Unknown DUALSHOCK 4 Wireless Controller>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DpadMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a35b2b79-0f33-4fd1-92ae-69fc55a97f76",
+                    "path": "<HID::Unknown DUALSHOCK 4 Wireless Controller>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DpadMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Vertical",
+                    "id": "3ac70ad8-31e3-4e71-8331-d44480aed5d1",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DpadMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5d88eeaa-dbc9-4e8a-b4e7-ad7f7c4637a7",
+                    "path": "<HID::Unknown DUALSHOCK 4 Wireless Controller>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DpadMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "93ddd6c5-b325-48b8-970e-7edff6908e1d",
+                    "path": "<HID::Unknown DUALSHOCK 4 Wireless Controller>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DpadMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "94fcf2b8-462c-4947-b48e-73709dacb7bb",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
